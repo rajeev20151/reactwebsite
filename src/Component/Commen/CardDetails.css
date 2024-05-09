@@ -1,0 +1,6 @@
+.cardDetails .cardDetails_text h2{margin-bottom:1rem;}
+.cardDetails .cardDetails_img img{width:100%; height:600px; object-fit: cover;
+margin-bottom: 1.5rem; border-radius: 2rem;}
+.cardDetails{margin:2.5rem 0;}
+.card_height{background: var(--color2); padding: 0.3rem 1rem; border-radius: 3rem;
+margin-bottom: 1rem; display: inline-block;} 

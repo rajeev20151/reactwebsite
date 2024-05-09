@@ -1,0 +1,57 @@
+*{padding:0; margin: 0; box-sizing: border-box; }
+:root{
+  --color1:#00cf00;
+  --color2:#c2fac2;
+  --color3:#fff;
+  --color4:#000;
+  --color5:#d1d1d1;
+  --fontStyle1: normal normal normal 4rem/110% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle2: normal normal normal 3.5rem/110% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle3: normal normal normal 2.5rem/120% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle4: normal normal normal 2rem / 120% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle5: normal normal normal 1.3rem / 120% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle6: normal normal normal 1.5rem / 120% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle7: normal normal normal 1.4rem / 120% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle8: normal normal normal 1.1rem / 130% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  --fontStyle9: normal normal normal 1rem / 140% 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fontStyle1 {font: var(--fontStyle1);opacity:0.9;}
+.fontStyle2 {font: var(--fontStyle2);opacity:0.9;}
+.fontStyle3 {font: var(--fontStyle3);opacity:0.9;}
+.fontStyle4 {font: var(--fontStyle4);opacity:0.9;}
+.fontStyle5 {font: var(--fontStyle5);opacity:0.9;}
+.fontStyle6 {font: var(--fontStyle6);opacity:0.9;}
+.fontStyle7 {font: var(--fontStyle7);opacity:0.9;}
+.fontStyle8 {font: var(--fontStyle8);opacity:0.9;}
+.fontStyle9 {font: var(--fontStyle9);opacity:0.9;}
+
+body{scroll-behavior: smooth;}
+html{overflow-x: hidden;}
+ul li{list-style: none;}
+a{text-decoration: none; color: unset;}
+
+/* ------- commen class --------------- */
+
+.w-width{width:80%; margin: 0 auto;}
+@media (max-width:600px) {
+  .w-width{width:90%; margin: 0 auto;}
+}
+/* ---- flex class -------- */
+.d-flex {display: flex;}
+.flex-wrap {flex-wrap: wrap;}
+.justify-between {justify-content: space-between;}
+.justify-around {justify-content: space-around;}
+.justify-center {justify-content: center;}
+.justify-end {justify-content: flex-end;}
+.justify-start {justify-content: flex-start;}
+.align-center {align-items: center;}
+.align-start {align-items: start;}
+.align-end {align-items: end;}
+.flex-column {flex-direction: column;}
+.flex-row {flex-direction: row;}
+/* ------- gap class ---------- */
+.gap{gap: 0.5rem;}
+.gap2{gap:1rem;}
+.gap3{gap: 1.5rem;}
+.gap4{gap: 2rem;}
+.gap5{gap: 2.5rem;}
